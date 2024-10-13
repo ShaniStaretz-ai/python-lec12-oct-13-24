@@ -4,20 +4,23 @@
 
 1) Ternary: shortcut in conditions:
 
-like in js:
+    like in js:
 
-```
-desc=x%2==0?"even": "odd"
-```
+    ```
+    desc=x%2==0?"even": "odd"
+    ```
 
-in python:
+    in python:
 
-```
-desc="even" if x%2==0 else "odd"
-print(f"one line: {x} is {"even" if x%2==0 else "odd"}")
-print(f"one line: {x} is {"negative" if x<0 else ("positive" if x>0 else "zero")}")
-l1=[-4,1,200,-3,0,2,-3]
-l1_1=["negative" if x<0 else ("positive" if x>0 else "zero") for x in l1]
-```
+    ```
+    desc="even" if x%2==0 else "odd"
+    print(f"one line: {x} is {"even" if x%2==0 else "odd"}")
+    print(f"one line: {x} is {"negative" if x<0 else ("positive" if x>0 else "zero")}")
+    l1=[-4,1,200,-3,0,2,-3]
+    l1_1=["negative" if x<0 else ("positive" if x>0 else "zero") for x in l1]
+    ```
+
+2) prim numbers: divided by himself and 1, to improve, can run the check x%divider and not need to run on the evens.
+3) 
 
 ## extra subjects:
