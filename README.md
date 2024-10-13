@@ -4,13 +4,13 @@
 
 1) Ternary: shortcut in conditions:
 
-    like in js:
+   like in js:
 
     ```
     desc=x%2==0?"even": "odd"
     ```
 
-    in python:
+   in python:
 
     ```
     desc="even" if x%2==0 else "odd"
@@ -21,6 +21,9 @@
     ```
 
 2) prim numbers: divided by himself and 1, to improve, can run the check x%divider and not need to run on the evens.
-3) 
+    ```
+   one_line = [x for x in  range(2, 100 + 1) if all([x % i for i in range(2, x)])]
+    ```
+3) play with numbers: swap digits, sum digits
 
 ## extra subjects:
