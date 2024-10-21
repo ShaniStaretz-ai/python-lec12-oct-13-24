@@ -1,14 +1,13 @@
 # 1
-
+from hw.challenges import number
 
 number1: float = float(input("enter a number:"))
-print(number1)
-if number1 > 10:
-    print("#1 :", 10 - number1)
-else:
-    print("#1:", 10 * number1)
-# 2
+print("ex1")
+print(f"{number1}{"-" if number1 > 10 else "x"}10={number1-10  if number1 > 10 else  10 * number1}", end=" ")
 
+print()
+# 2
+print("ex2")
 l_sum: list[float] = [float(input("enter a number:")) for _ in range(3)]
 sum_nums: float = sum(l_sum)
 if sum_nums > 100:
