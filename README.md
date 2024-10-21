@@ -14,6 +14,7 @@
 
     ```
     desc="even" if x%2==0 else "odd"
+    desc="even" if x%2==0 else "odd"
     print(f"one line: {x} is {"even" if x%2==0 else "odd"}")
     print(f"one line: {x} is {"negative" if x<0 else ("positive" if x>0 else "zero")}")
     l1=[-4,1,200,-3,0,2,-3]
