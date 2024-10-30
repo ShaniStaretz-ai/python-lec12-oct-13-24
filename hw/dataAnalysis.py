@@ -22,14 +22,14 @@ print("reverse list:", [int(input("enter number to list:")) for _ in range(10)][
 
 # 13:
 print("ex13- total count prime input numbers - till input 0")
-list_prime2: list[int] = []
+count_primes: int = 0
 while True:
     x = int(input("enter prime number to list:"))
     if x == SENTINEL:
         break
     if all([x % i for i in range(2, x)]):
-        list_prime2.append(x)
-print("total prime numbers count:", len(list_prime2))
+        count_primes+=1
+print("total prime numbers count:", count_primes)
 
 # 14
 print("ex14- count bigger average 5 input numbers")
