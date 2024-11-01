@@ -14,7 +14,7 @@ print("ex17- is reversed word: ")
 string1: str = input("enter word:")
 length = len(string1)
 i:int = 0
-while i < length:
+while i < length//2:
     if string1[i] != string1[length - 1 - i]:
         print("not Palindrome")
         break;
